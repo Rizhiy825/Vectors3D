@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vectors3D", "Vectors3D\Vectors3D.csproj", "{D9932A45-49EC-4A62-A777-83D1FE320D5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vectors3D", "Vectors3D\Vectors3D.csproj", "{D9932A45-49EC-4A62-A777-83D1FE320D5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VectorsShould\Tests.csproj", "{FCF8C213-F17C-48FF-9F88-31BB2FBCF0E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{4DDC89EE-3D2F-49F0-A8E3-B0528E1B2F65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D9932A45-49EC-4A62-A777-83D1FE320D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9932A45-49EC-4A62-A777-83D1FE320D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9932A45-49EC-4A62-A777-83D1FE320D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF8C213-F17C-48FF-9F88-31BB2FBCF0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF8C213-F17C-48FF-9F88-31BB2FBCF0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF8C213-F17C-48FF-9F88-31BB2FBCF0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF8C213-F17C-48FF-9F88-31BB2FBCF0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDC89EE-3D2F-49F0-A8E3-B0528E1B2F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDC89EE-3D2F-49F0-A8E3-B0528E1B2F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDC89EE-3D2F-49F0-A8E3-B0528E1B2F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDC89EE-3D2F-49F0-A8E3-B0528E1B2F65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
